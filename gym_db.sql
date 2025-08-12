@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 17, 2025 at 07:48 AM
+-- Generation Time: Aug 12, 2025 at 09:12 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -99,7 +99,36 @@ INSERT INTO `members` (`id`, `name`, `email`, `password`, `membership_plan`) VAL
 (20, 'Udayveer Diwaker', 'shivadiwaker2@gmail.com', 'Magicmachine1', 'premium'),
 (21, 'Udayveer Diwaker', 'shivadiwaker2@gmail.com', 'Magicmachine1', 'elite'),
 (22, 'Udayveer Diwaker', 'shivadiwaker2@gmail.com', 'Magicmachine1', 'Elite'),
-(23, 'Udayveer Diwaker', 'shivadiwaker2@gmail.com', 'Magicmachine1', 'Elite');
+(23, 'Udayveer Diwaker', 'shivadiwaker2@gmail.com', 'Magicmachine1', 'Elite'),
+(24, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(25, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(26, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(27, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(28, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Elite'),
+(29, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(30, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(31, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(32, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(33, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(34, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(35, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(36, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(37, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(38, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Elite'),
+(39, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(40, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(41, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(42, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Elite'),
+(43, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(44, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(45, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(46, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Elite'),
+(47, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Elite'),
+(48, 'dv', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(49, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'basic'),
+(50, 'shiva', 'udayveerdiwaker2@gmail.com', 'shiva44', 'premium'),
+(51, 'Udayveer Diwaker', 'udayveerdiwaker2@gmail.com', 'shiva44sc sdvb ', 'basic'),
+(52, 'SHIVAM', 'shiva@gmail.com', 'shiva44', 'premium');
 
 -- --------------------------------------------------------
 
@@ -159,7 +188,7 @@ ALTER TABLE `contact`
 -- AUTO_INCREMENT for table `members`
 --
 ALTER TABLE `members`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=53;
 
 --
 -- AUTO_INCREMENT for table `subscribers`

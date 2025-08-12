@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 12, 2025 at 09:31 AM
+-- Generation Time: Aug 12, 2025 at 09:15 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -18,19 +18,22 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `oops_project`
+-- Database: `gym_management`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `oops_table`
+-- Table structure for table `admins`
 --
 
-CREATE TABLE `oops_table` (
+CREATE TABLE `admins` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `email` varchar(255) DEFAULT NULL
+  `username` varchar(50) DEFAULT NULL,
+  `password` varchar(250) NOT NULL,
+  `full_name` varchar(250) NOT NULL,
+  `email` varchar(250) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
@@ -38,20 +41,11 @@ CREATE TABLE `oops_table` (
 --
 
 --
--- Indexes for table `oops_table`
+-- Indexes for table `admins`
 --
-ALTER TABLE `oops_table`
-  ADD PRIMARY KEY (`id`);
-
---
--- AUTO_INCREMENT for dumped tables
---
-
---
--- AUTO_INCREMENT for table `oops_table`
---
-ALTER TABLE `oops_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `admins`
+  ADD UNIQUE KEY `username` (`username`),
+  ADD UNIQUE KEY `email` (`email`);
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

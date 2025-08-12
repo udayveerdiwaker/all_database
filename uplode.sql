@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 19, 2025 at 11:43 AM
+-- Generation Time: Aug 12, 2025 at 09:31 AM
 -- Server version: 10.4.27-MariaDB
 -- PHP Version: 7.4.33
 
@@ -48,7 +48,13 @@ INSERT INTO `textuplode` (`id`, `fname`, `lname`, `mobile_no`, `email`, `passwor
 (189, 'aditya', 'Diwaker', '09720067044', 'udeerdiwaker2@gmail.com', 'shiva44', 'Awash Vikash Colony House No.507', '1727761143_'),
 (190, 'Udayveer', 'Diwaker', '09720067044', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Awash Vikash Colony House No.507', '1728647959_'),
 (191, 'Udayveer', 'Diwaker', '09720067044', 'shivadiwaker2@gmail.com', 'shiva77', 'Awash Vikash Colony House No.507', '1728648157_'),
-(192, 'Udayveer', 'Diwaker', '09720067044', 'shivadiwaker2@gmail.com', 'shiva77', 'Awash Vikash Colony House No.507', '1728648182_');
+(192, 'Udayveer', 'Diwaker', '09720067044', 'shivadiwaker2@gmail.com', 'shiva77', 'Awash Vikash Colony House No.507', '1728648182_'),
+(193, 'shiva', 'Diwaker', '09720067044', 'udayveerdiwaker@gmail.com', 'shiva', 'Awash Vikash Colony House No.507', '1742194826_'),
+(194, 'shiva', 'Diwaker', '09720067044', 'udayveerdiwaker@gmail.com', 'shiva', 'Awash Vikash Colony House No.507', '1742194847_software-development.png'),
+(195, 'shiva', 'Diwaker', '09720067044', 'udayveerdiwaker@gmail.com', '', 'Awash Vikash Colony House No.507', '1742194861_software-development.png'),
+(196, 'shiva', 'Diwaker', '09720067044', 'udayveerdiwaker@gmail.com', 'shiva', 'Awash Vikash Colony House No.507', '1742194916_Dynamic.jpeg'),
+(197, 'shiva', 'Diwaker', '09720067044', 'udayveerdiwaker2@gmail.com', 'shiva44', 'Awash Vikash Colony House No.507', '1742194993_Dynamic.jpeg'),
+(199, '', '', '', 'udayveerdiwaker2@gmail.com', 'shiva44', '', '1745060914_');
 
 --
 -- Indexes for dumped tables
@@ -68,7 +74,7 @@ ALTER TABLE `textuplode`
 -- AUTO_INCREMENT for table `textuplode`
 --
 ALTER TABLE `textuplode`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=193;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=200;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

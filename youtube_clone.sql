@@ -18,29 +18,38 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `oops_project`
+-- Database: `youtube_clone`
 --
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `oops_table`
+-- Table structure for table `videos`
 --
 
-CREATE TABLE `oops_table` (
+CREATE TABLE `videos` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  `email` varchar(255) DEFAULT NULL
+  `title` varchar(255) NOT NULL,
+  `description` text DEFAULT NULL,
+  `filename` varchar(255) NOT NULL,
+  `uploaded_at` timestamp NOT NULL DEFAULT current_timestamp()
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `videos`
+--
+
+INSERT INTO `videos` (`id`, `title`, `description`, `filename`, `uploaded_at`) VALUES
+(1, 'scsc', 'scwe', '681346df32f77_istockphoto-483994521-640_adpp_is.mp4', '2025-05-01 10:03:11');
 
 --
 -- Indexes for dumped tables
 --
 
 --
--- Indexes for table `oops_table`
+-- Indexes for table `videos`
 --
-ALTER TABLE `oops_table`
+ALTER TABLE `videos`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -48,10 +57,10 @@ ALTER TABLE `oops_table`
 --
 
 --
--- AUTO_INCREMENT for table `oops_table`
+-- AUTO_INCREMENT for table `videos`
 --
-ALTER TABLE `oops_table`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT;
+ALTER TABLE `videos`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
